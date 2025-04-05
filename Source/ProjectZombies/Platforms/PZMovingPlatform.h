@@ -32,11 +32,11 @@ public:
 	virtual void AddActiveTrigger_Implementation() override;
 	virtual void RemoveActiveTrigger_Implementation() override;
 
-	/** Functions to Call when platform starts moving by its triggers */
+	/** Functions to Call when a platform starts moving by its triggers */
 	UFUNCTION(BlueprintImplementableEvent)
 	void StartedMoving();
 
-	/** Functions to Call when platform stops moving by its triggers */
+	/** Functions to Call when a platform stops moving by its triggers */
 	UFUNCTION(BlueprintImplementableEvent)
 	void StoppedMoving();
 
