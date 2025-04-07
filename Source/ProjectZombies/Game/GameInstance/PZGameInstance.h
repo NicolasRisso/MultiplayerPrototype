@@ -12,7 +12,5 @@ UCLASS()
 class PROJECTZOMBIES_API UPZGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
-
-	UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Gameplay Tags")
-	static FGameplayTag ConvertStringToGameplayTag(const FString& TagString);
+	
 };
