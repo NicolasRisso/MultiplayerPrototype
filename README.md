@@ -1,53 +1,53 @@
 # Multiplayer Prototype - Steam
 
-## Exemplo de Documentação de Uso
+## Usage Documentation Example
 
-[Link Para Documentação](https://www.notion.so/Multiplayer-Prototype-Exemplo-de-Documenta-o-de-Uso-1ceb9e574bc580cd8c6ed045744d10e5)
+[Usage Documentation Link](https://www.notion.so/Multiplayer-Prototype-Exemplo-de-Documenta-o-de-Uso-1ceb9e574bc580cd8c6ed045744d10e5)
 
-## Observações
+## Observations
 
-- Caso não consigam encontrar o servidor pelo sistema de matchmaking, utilizem a funcionalidade **Invite Friend** na Steam para se conectar com amigos.
-- Lembrem-se que o Steam ID 480 possui restrições regionais, o que pode limitar a descoberta de servidores em outras regiões.
+- If you can't locate the server through the matchmaking system, use the **Invite Friend** feature on Steam to connect with your friends.
+- Please note that Steam ID 480 has regional restrictions which might limit the discovery of servers in other regions.
 
-## Descrição do Projeto
+## Project Description
 
-Multiplayer Prototype - Steam é um projeto experimental desenvolvido para testar a integração multiplayer utilizando a API da Steam. O foco principal é explorar funcionalidades de física com replicação e autenticação de servidor, criando uma experiência dinâmica e interativa em um ambiente de plataformas.
+Multiplayer Prototype - Steam is an experimental project developed to test multiplayer integration using the Steam API. The primary goal is to explore replicated physics features and server authentication, creating a dynamic and interactive experience in a platform-based environment.
 
-## Funcionalidades
+## Features
 
-- **Plataformas em Movimento:**  
-  Plataformas que podem se mover autonomamente ou serem ativadas por triggers, oferecendo desafios dinâmicos durante o jogo.
+- **Moving Platforms:**  
+  Platforms that can operate autonomously or be activated by triggers, providing dynamic challenges during gameplay.
 
-- **Mudanças de Velocidade (Corrida):**  
-  Mecanismo que permite aos jogadores aumentar sua velocidade com autenticação do servidor.
+- **Speed Changes (Running):**  
+  A mechanism that allows players to increase their speed, which is authenticated by the server.
 
-- **Interação com Objetos:**  
-  Os jogadores podem pegar e soltar objetos utilizando física realista, criando oportunidades para puzzles e interações no ambiente.
+- **Object Interaction:**  
+  Players can pick up and drop objects using realistic physics, opening up opportunities for puzzles and interactive environmental elements.
 
-- **Ativação de Botões (Triggers):**  
-  Botões que, ao serem acionados, interagem com plataformas, incluindo a alteração de propriedades visuais, como a mudança de cor dos materiais das plataformas.
+- **Button Activation (Triggers):**  
+  Buttons that, when activated, interact with platforms — including changes to visual properties such as altering the color of platform materials.
 
-- **Replicação e Autenticação de Servidor:**  
-  Implementação de sistemas de replicação de física e autenticação de servidor para garantir que todas as ações e interações sejam sincronizadas entre os jogadores, promovendo uma experiência multiplayer estável e segura.
+- **Replication and Server Authentication:**  
+  Implementation of replicated physics and server authentication systems ensures that all actions and interactions remain synchronized among players, promoting a stable and secure multiplayer experience.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **Linguagens:** C++ e Blueprints (BP)  
-  Uma implementação híbrida que permite aproveitar o poder e a flexibilidade do C++ juntamente com a facilidade de prototipação dos Blueprints.
+- **Languages:** C++ and Blueprints (BP)  
+  A hybrid implementation that leverages the power and flexibility of C++ along with the ease of prototyping provided by Blueprints.
 
-- **Motor de Jogo:** Unreal Engine  
-  Plataforma utilizada para o desenvolvimento e execução do projeto, com suporte robusto para multiplayer e física avançada.
+- **Game Engine:** Unreal Engine  
+  The engine used for developing and running the project, which offers robust support for multiplayer functionality and advanced physics.
 
-- **Integração Multiplayer:** API da Steam  
-  Responsável pela autenticação, comunicação entre clientes e gerenciamento das sessões multiplayer.
+- **Multiplayer Integration:** Steam API  
+  Handles authentication, client communication, and the management of multiplayer sessions.
 
-## Propósito e Objetivos
+## Purpose and Objectives
 
-- **Teste de Integração Multiplayer:**  
-  Validar a eficácia da API da Steam em um ambiente de jogo real, garantindo uma comunicação segura e estável entre os jogadores.
+- **Multiplayer Integration Testing:**  
+  Validate the effectiveness of the Steam API in a real-world game environment, ensuring secure and stable communication among players.
 
-- **Exploração de Física Replicada:**  
-  Desenvolver e testar mecânicas que envolvem física realista replicada, assegurando que todos os clientes visualizem interações consistentes, especialmente em plataformas e objetos interativos.
+- **Exploration of Replicated Physics:**  
+  Develop and test mechanics involving replicated realistic physics, ensuring that all clients experience consistent interactions, especially with platforms and interactive objects.
 
-- **Aprendizado e Prototipagem:**  
-  Fornecer uma base prática para desenvolvedores aprenderem e experimentarem com a combinação de C++ e Blueprints, explorando as vantagens de ambos os métodos de desenvolvimento.
+- **Learning and Prototyping:**  
+  Provide a practical foundation for developers to explore and learn from the combination of C++ and Blueprints, taking advantage of the strengths of both development methods.
